@@ -1,0 +1,40 @@
+{
+  "name": "@cross2d/react-native-experimental-navigation",
+  "version": "1.0.0",
+  "description": "React Native ExperimentalNavigation clone",
+  "main": "NavigationExperimental",
+  "scripts": {
+    "build": "babel src -d lib",
+    "release":"npm publish --access public"
+  },
+  "keywords": [
+    "react-native",
+    "ExperimentalNavigation",
+    "navigation"
+  ],
+  "author": "Colin3dmax",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "clamp": "^1.0.1",
+    "fbjs": "^0.8.1",
+    "react-addons-pure-render-mixin": "^15.0.2",
+    "babel-plugin-syntax-flow": "^6.8.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-react-native": "^1.7.0"
+  },
+  "babel": {
+    "plugins": [
+      "syntax-flow",
+      "transform-flow-strip-types"
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-syntax-flow": "^6.8.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-react-native": "^1.9.0",
+    "clamp": "^1.0.1",
+    "fbjs": "^0.8.1",
+    "react-addons-pure-render-mixin": "^15.0.2"
+  }
+}
