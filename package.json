@@ -1,5 +1,5 @@
 {
-  "name": "@cross2d/react-native-experimental-navigation",
+  "name": "@cross2d/react-web-experimental-navigation",
   "version": "1.0.0",
   "description": "React Native ExperimentalNavigation clone",
   "main": "NavigationExperimental",
